@@ -38,7 +38,10 @@ function UserResult() {
             );
           })
         ) : (
+          <div className="d-flex align-items-center">
           <HashLoader color="#36d7b7" />
+          <h2 className="mx-4"> please fill the field</h2>
+          </div> 
         )}
       </Row>
     </>

@@ -8,3 +8,6 @@ section{
 *{
   color: white;
 }
+a{
+  color: rgb(125, 179, 227) !important;
+}
